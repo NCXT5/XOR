@@ -1,0 +1,9 @@
+pub class TcpServerAbstract {
+
+}
+
+pub class TcpServer {
+    pub fn new() -> TcpServer {
+
+    }
+}

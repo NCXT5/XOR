@@ -1,5 +1,5 @@
 # Declaring a function
-These functions should only be allowed to be delcared in the scope of a [namespace](../namespace/Declaration.md), [class](../class/Declaration.md), or an open program body.
+These functions should only be allowed to be declared in the scope of a [namespace](../namespace/Declaration.md), [class](../class/Declaration.md), or an open program body.
 
 **Simple Example**
 ```xor

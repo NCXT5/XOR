@@ -1,0 +1,21 @@
+pub class Terminal {
+    pub fn new() -> Terminal {
+
+    }
+
+    pub fn print(&this, text: i8) {
+        #[if os == "Linux"]
+            #[asm]
+                mov rax, 1
+                mov rdi, 1
+                mov rsi, ${text}
+                mov rdx, 1
+                syscall
+            #[end asm]
+
+            return;
+        #[end if]
+
+        #[kill]
+    }
+}
